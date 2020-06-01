@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    padding: 0 !important;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 15px;
+    float: right;
+}
+
+.fa-bars{
+    color: #fff ;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* ------------------benner section-------------------- */
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding-top: 5%;
+    color: #fff;
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    line-height: 40px;
+}
+
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-fluid{
+    height: 400px;
+    top: -20px;
+}
+
+.benner-img-bottom{
+    width: 100%;
+    height: 140px;
+}
+
+/* ------------------service section-------------------- */
+
+#services {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.cotainer-title-main{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cotainer-title-main::before{
+    content: '';
+    background-color: #7b1798;
+    width: 200px;
+    height: 5px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(61px);
+}
+
+.cotainer-title-main::after{
+    content: '';
+    background-color: #7b1798;
+    width: 50px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(5px);
+    margin-bottom: 40px;
+}
+
+.services{
+    text-align: center;
+    padding: 20px;
+}
+
+.services-img{
+    width: 100px;
+}
+
+.services-title{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+
+.services-p{
+    font-size: 14px;
+}
+
+.services-btn{
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    border: none;
+}
+
+.services-btn.btn-primary:focus,
+.services-btn.btn-primary:active{
+    box-shadow: none;
+    border: none;
+}
+
+
+/* ------------------about-us section-------------------- */
+
+#about-us{
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.about-us__title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 18%;
+    padding-bottom: 22px;
+}
+
+.about-us__list,
+.about-us__item{
+    margin: 12px 0;
+}
+
+.about-us__list{
+    margin-left: 13px;
+}
+
+.about-us-img{
+    width: 100%;
+}
